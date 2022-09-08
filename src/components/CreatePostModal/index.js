@@ -27,7 +27,7 @@ function CreatePostModal(props) {
         dispatch(createPost.createPostRequest(data))
         onClose()
 
-    }, [data, dispatch])
+    }, [data, dispatch, onClose])
     return (
         <Modal open={isShow} onClose={onClose}>
             <div className='create-post-modal'>

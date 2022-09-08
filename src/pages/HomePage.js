@@ -11,7 +11,7 @@ function HomePage(props) {
     const dispatch = useDispatch()
     const openCreatePostModal = useCallback(() => {
         dispatch(showModal())
-    }, [])
+    }, [dispatch])
     return (
         <Container maxWidth="lg">
             <Header />
