@@ -1,0 +1,11 @@
+.create-post-modal{
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 3rem auto;
+
+    .modal-form{
+        display: flex;
+        flex-direction: column;
+    }
+}

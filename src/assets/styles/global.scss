@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.App{
+   .bl-fab{
+        position: fixed;
+        right: 50px;
+        bottom: 40px;
+    }
+}
+.card-media{
+    height: 200px;
+}
+
+@import '_header.scss';
+@import '_createPostModal.scss'
